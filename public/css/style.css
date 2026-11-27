@@ -1,0 +1,41 @@
+body {
+  background: #f4f6f9;
+}
+
+.msg-flutuante {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 2000;
+  max-width: 350px;
+}
+
+.tela-login {
+  min-height: 100vh;
+}
+
+/* Colunas do painel */
+.coluna-painel {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  height: 100%;
+}
+
+.coluna-painel .card {
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.coluna-painel .card:hover {
+  transform: translateY(-2px);
+}
+
+.lista-scroll {
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.resultado-busca .list-group-item {
+  cursor: pointer;
+}
